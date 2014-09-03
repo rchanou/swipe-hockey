@@ -2,9 +2,16 @@
   "name": "swipe-hockey",
   "version": "1.0.0",
   "description": "swipe hockey",
+  "private": true,
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.8.7"
+  },
+  "engines": {
+    "node": "0.10.x"
   },
   "repository": {
     "type": "git",
