@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 
-var socket = io.connect('http://localhost');
+var socket = io.connect();
 
 var Game = React.createClass({
   getDefaultProps: function(){

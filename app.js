@@ -1,11 +1,14 @@
 var express = require('express');
 var app = express();
+app.set('port', (process.env.PORT || 5000));
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var _ = require('underscore');
 
 app.use(express.static(__dirname + '/public'));
-server.listen(80);
+server.listen(app.get('port'), function(){
+	console.log('sup');
+});
 
 var players = [];
 
