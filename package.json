@@ -1,0 +1,23 @@
+{
+  "name": "swipe-hockey",
+  "version": "1.0.0",
+  "description": "swipe hockey",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchanou/swipe-hockey"
+  },
+  "keywords": [
+    "swipe",
+    "hockey"
+  ],
+  "author": "Ronald Chanou",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/rchanou/swipe-hockey/issues"
+  },
+  "homepage": "https://github.com/rchanou/swipe-hockey"
+}

@@ -1,0 +1,8 @@
+<script type="text/javascript" src="http://localhost/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost');
+  socket.on('hello', function (data) {
+    console.log(data);
+    socket.emit('hello', { my: 'data' });
+  });
+</script>
